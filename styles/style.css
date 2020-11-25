@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.table{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 10px;
+  width: 300px;
+  margin: 4rem auto;
+  padding: 2rem;
+  
+}
+
+.profile-pic {
+  margin: auto;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background: #333 url("../img/profile.jpg") no-repeat center;
+}
+
+.name{
+    text-align: center;
+    padding: 1rem;
+}
+
+.company{
+    text-align: center;
+}
